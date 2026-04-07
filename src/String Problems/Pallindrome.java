@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Pallindrome {
     static String reverseStr(String str){
