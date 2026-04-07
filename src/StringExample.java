@@ -14,7 +14,7 @@ public class StringExample {
 
 //        System.out.println(s1 == s3);
 //        System.out.println(s1.equals(s3));
-
+                System.out.println("This is me shibaram sathua and setting up a cloud platform so that. i can use both my ipad and my laptop with sync and evrything will be sync with this.");
 
         char[] c = {'w','e','l','c','o','m','e'};
 //        String s6 = String.valueOf(c);
