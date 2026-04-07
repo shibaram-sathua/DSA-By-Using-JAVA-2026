@@ -13,5 +13,6 @@ public class ReverseString {
         String s1 = new String();
         s1 = sc.nextLine().trim();
         System.out.println(ReverseString.Solution1(s1));
+        sc.close();
     }
 }
