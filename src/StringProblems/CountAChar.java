@@ -1,4 +1,5 @@
 package StringProblems;
+import java.util.*;
 import java.util.Scanner;
 public class CountAChar {
 //    static int countCharInAString(String str, char target){
