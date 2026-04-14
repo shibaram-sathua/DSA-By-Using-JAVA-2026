@@ -1,4 +1,4 @@
-package StringProblems;
+
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 import java.util.Scanner;
@@ -19,5 +19,6 @@ public class CountAChar {
         System.out.println("Enter the character to find the counts in the string");
         char c = sc.next().trim().charAt(0);
         System.out.println(countCharInAString(str, c));
+        sc.close();
     }
 }

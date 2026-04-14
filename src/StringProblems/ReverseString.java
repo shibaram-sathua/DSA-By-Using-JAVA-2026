@@ -1,4 +1,4 @@
-package StringProblems;
+
 import java.util.Scanner;
 public class ReverseString {
     static String Solution1(String str){
