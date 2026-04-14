@@ -31,5 +31,6 @@ public class ReverseBySwapping {
         System.out.print("Enter a string: ");
         String str = sc.nextLine().trim();
         System.out.println(reverseString(str));
+        sc.close();
     }
 }
