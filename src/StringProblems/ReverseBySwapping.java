@@ -5,7 +5,7 @@ public class ReverseBySwapping {
 
     static String reverseString(String str) {
         // char[] strSequence = str.toCharArray();
-        //System.out.println(Arrays.toString(strSequence));
+        // System.out.println(Arrays.toString(strSequence));
         char[] strSequence = new char[str.length()];
         for (int i = 0; i < str.length(); i++) {
             strSequence[i] = str.charAt(i);
