@@ -19,7 +19,7 @@ public class Pattern {
 //        }
 
         //3 solid right-angled triangle pattern
-//        int n = 9;
+//        int n = 4;
 //        for(int row = 1; row <= n; row++){
 //            for(int col = 1; col <= row; col++){
 //                System.out.print("* ");
@@ -79,7 +79,7 @@ public class Pattern {
 //        }
 
         // 8 hollow rectangle pattern;
-//        int n = 4;
+//        int n = 5;
 //        //there is no variable column for each row so
 //        for(int row = 1; row <= n; row++){
 //            if(row == 1 || row == n){
@@ -120,7 +120,7 @@ public class Pattern {
 //            System.out.println();
 //            }
             //hollow pyramid
-//            int n = 9;
+//            int n = 5;
 //            for(int row = 1; row <= n; row++){
 //                //for space
 //                for(int col = 1; col <= n - row; col++){
@@ -144,7 +144,7 @@ public class Pattern {
 
         //for diamond pattern
         //part 1
-//        int n = 5;
+//        int n = 6;
 //        for(int row = 1; row <= n; row++){
 //            //for space
 //            for(int col = 1; col <= n - row; col++){
@@ -157,8 +157,7 @@ public class Pattern {
 //            System.out.println();
 //        }
 //        //part 2
-//        int n1 = 5;
-//        for(int row = 1; row <= n1; row++){
+//        for(int row = 1; row <= n; row++){
 //            if(row == 1){
 //                continue;
 //            }
@@ -167,7 +166,7 @@ public class Pattern {
 //                System.out.print("  ");
 //            }
 //            //for star
-//            for(int col = 1; col <= 2 * n1 - 2 * row + 1; col++){
+//            for(int col = 1; col <= 2 * n - 2 * row + 1; col++){
 //                System.out.print("* ");
 //            }
 //            System.out.println();
