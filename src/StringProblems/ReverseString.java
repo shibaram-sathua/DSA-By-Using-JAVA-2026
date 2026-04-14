@@ -11,7 +11,7 @@ public class ReverseString {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Please provide the string:");
-        String s1 = new String();
+        String s1;
         s1 = sc.nextLine().trim();
         System.out.println(ReverseString.Solution1(s1));
         sc.close();
