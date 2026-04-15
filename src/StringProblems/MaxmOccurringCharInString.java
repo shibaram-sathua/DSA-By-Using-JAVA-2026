@@ -20,5 +20,8 @@ public class MaxmOccurringCharInString {
         }
             System.out.println(c);
 
+            sc.close();
+            //this is too hard i shoud practice more and try to build logic to solve any problem.
+
     }
 }
