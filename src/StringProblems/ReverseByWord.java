@@ -13,8 +13,8 @@ public class ReverseByWord{
                 if(str.length() > 0){
                     str.append(".");
                 }
+                str.append(words[i]);
             }
-            str.append(words[i]);
         }
         return str.toString();
         
