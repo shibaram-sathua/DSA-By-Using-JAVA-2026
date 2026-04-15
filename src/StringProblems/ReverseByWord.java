@@ -10,6 +10,8 @@ public class ReverseByWord{
         for(int i = words.length - 1; i >= 0; i--){
             //to skip all those spaces caused by leading and multiple dots
             if(!words[i].isEmpty()){
+                //if the length is 0 then it append a word first so that it wont be add the leading spaces to the reversed string
+                //after that whrn the length become positive then it add a dot first then the word so that 
                 if(str.length() > 0){
                     str.append(".");
                 }
