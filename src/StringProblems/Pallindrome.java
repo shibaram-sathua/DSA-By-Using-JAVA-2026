@@ -1,4 +1,4 @@
-package StringProblems;
+
 import java.util.Scanner;
 public class Pallindrome {
     //method for reverse a string;
