@@ -12,7 +12,7 @@ class CommuteService{
     }
 
 }
-interface ITransportMode{
+interface  ITransportMode{
     double calculateTransportFares(double distanceInKm);
 }
 class Metro implements ITransportMode{
