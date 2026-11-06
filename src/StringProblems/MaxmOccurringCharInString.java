@@ -1,3 +1,5 @@
+package StringProblems;
+
 import java.util.Scanner;
 public class MaxmOccurringCharInString {
     public static void main(String[] args) {
